@@ -1,0 +1,40 @@
+.todo-list-section {
+  padding: 1.25rem;
+  background-color: #f0f0f0;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  margin: 2.5rem;
+}
+
+.todo-list-section p {
+  font-size: 1.125rem;
+  color: #555;
+  text-align: center;
+}
+
+.todo-list-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list-section li:first-child {
+  margin: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 0.925rem;
+}
+
+.todo-list-section li {
+  margin-bottom: 0.625rem;
+  padding: 0.625rem;
+  background-color: #fff;
+  border-radius: 0.1875rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-list-section li span {
+  width: 33.33%;
+  display: inline-block;
+  padding: 0 0.25rem;
+}

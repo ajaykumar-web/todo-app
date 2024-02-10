@@ -1,0 +1,49 @@
+.loginform {
+  background: #ffffff;
+  width: 450px;
+  color: #4caf50;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 29px 0px #e0e0e0;
+}
+.loginform h2 {
+  font-size: 30px;
+  margin: 30px 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+}
+
+.loginform h3 {
+  cursor: pointer;
+}
+
+.loginform a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1e5220;
+}
+.loginform .have-not {
+  float: right;
+}
+.loginform a:hover {
+  color: #4caf50;
+}
+
+@media (max-width: 576px) {
+  .loginform {
+    width: 90%;
+  }
+  .loginform a {
+    display: block;
+    text-align: center;
+    float: inherit !important;
+    margin: 10px 0px;
+  }
+}
