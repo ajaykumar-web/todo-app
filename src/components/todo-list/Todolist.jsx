@@ -30,7 +30,7 @@ function Todolist() {
   useEffect(() => {
     const storedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
     setTasks(storedTasks);
-  }, []);
+  }, [tasks]);
 
   /**
    * Function to delete a task.
